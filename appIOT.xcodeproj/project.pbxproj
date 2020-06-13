@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		311670C024874B1F004F7945 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311670BF24874B1F004F7945 /* AppDelegate.swift */; };
+		311670C224874B1F004F7945 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311670C124874B1F004F7945 /* SceneDelegate.swift */; };
+		311670C424874B1F004F7945 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311670C324874B1F004F7945 /* ViewController.swift */; };
+		311670C724874B1F004F7945 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 311670C524874B1F004F7945 /* Main.storyboard */; };
+		311670C924874B20004F7945 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 311670C824874B20004F7945 /* Assets.xcassets */; };
+		311670CC24874B20004F7945 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 311670CA24874B20004F7945 /* LaunchScreen.storyboard */; };
+		311670D424876D32004F7945 /* RoomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311670D324876D32004F7945 /* RoomCollectionViewCell.swift */; };
+		311670D9248773A3004F7945 /* RoomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311670D7248773A3004F7945 /* RoomTableViewCell.swift */; };
+		311670DA248773A3004F7945 /* RoomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 311670D8248773A3004F7945 /* RoomTableViewCell.xib */; };
+		313CA7F5248FAE0D0010BE10 /* BigSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313CA7F4248FAE0D0010BE10 /* BigSwitch.swift */; };
+		313CA7F7248FB1070010BE10 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313CA7F6248FB1070010BE10 /* CustomButton.swift */; };
+		31937F1E2489F7AE00875158 /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31937F1D2489F7AE00875158 /* Canvas.swift */; };
+		31937F282489FF7C00875158 /* Proxima Nova Alt Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31937F202489FF7C00875158 /* Proxima Nova Alt Thin.otf */; };
+		31937F292489FF7C00875158 /* Proxima Nova Alt Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31937F212489FF7C00875158 /* Proxima Nova Alt Bold.otf */; };
+		31937F2A2489FF7C00875158 /* Proxima Nova Extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31937F222489FF7C00875158 /* Proxima Nova Extrabold.otf */; };
+		31937F2B2489FF7C00875158 /* Proxima Nova Alt Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31937F232489FF7C00875158 /* Proxima Nova Alt Light.otf */; };
+		31937F2C2489FF7C00875158 /* Proxima Nova Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31937F242489FF7C00875158 /* Proxima Nova Black.otf */; };
+		31937F2D2489FF7C00875158 /* Proxima Nova Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31937F252489FF7C00875158 /* Proxima Nova Bold.otf */; };
+		31937F2E2489FF7C00875158 /* ProximaNova-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31937F262489FF7C00875158 /* ProximaNova-Regular.otf */; };
+		31937F2F2489FF7C00875158 /* Proxima Nova Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31937F272489FF7C00875158 /* Proxima Nova Thin.otf */; };
+		31937F31248A0CF300875158 /* RoomM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31937F30248A0CF300875158 /* RoomM.swift */; };
+		319D8E422488B433004BA38D /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319D8E412488B433004BA38D /* Room.swift */; };
+		319D8E442488D15B004BA38D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319D8E432488D15B004BA38D /* SecondViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		311670BC24874B1F004F7945 /* appIOT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appIOT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		311670BF24874B1F004F7945 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		311670C124874B1F004F7945 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		311670C324874B1F004F7945 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		311670C624874B1F004F7945 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		311670C824874B20004F7945 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		311670CB24874B20004F7945 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		311670CD24874B20004F7945 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		311670D324876D32004F7945 /* RoomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomCollectionViewCell.swift; sourceTree = "<group>"; };
+		311670D7248773A3004F7945 /* RoomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomTableViewCell.swift; sourceTree = "<group>"; };
+		311670D8248773A3004F7945 /* RoomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoomTableViewCell.xib; sourceTree = "<group>"; };
+		313CA7F4248FAE0D0010BE10 /* BigSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigSwitch.swift; sourceTree = "<group>"; };
+		313CA7F6248FB1070010BE10 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		31937F1D2489F7AE00875158 /* Canvas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Canvas.swift; sourceTree = "<group>"; };
+		31937F202489FF7C00875158 /* Proxima Nova Alt Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Alt Thin.otf"; sourceTree = "<group>"; };
+		31937F212489FF7C00875158 /* Proxima Nova Alt Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Alt Bold.otf"; sourceTree = "<group>"; };
+		31937F222489FF7C00875158 /* Proxima Nova Extrabold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Extrabold.otf"; sourceTree = "<group>"; };
+		31937F232489FF7C00875158 /* Proxima Nova Alt Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Alt Light.otf"; sourceTree = "<group>"; };
+		31937F242489FF7C00875158 /* Proxima Nova Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Black.otf"; sourceTree = "<group>"; };
+		31937F252489FF7C00875158 /* Proxima Nova Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Bold.otf"; sourceTree = "<group>"; };
+		31937F262489FF7C00875158 /* ProximaNova-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Regular.otf"; sourceTree = "<group>"; };
+		31937F272489FF7C00875158 /* Proxima Nova Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Thin.otf"; sourceTree = "<group>"; };
+		31937F30248A0CF300875158 /* RoomM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomM.swift; sourceTree = "<group>"; };
+		319D8E412488B433004BA38D /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		319D8E432488D15B004BA38D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		311670B924874B1F004F7945 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		311670B324874B1F004F7945 = {
+			isa = PBXGroup;
+			children = (
+				311670BE24874B1F004F7945 /* appIOT */,
+				311670BD24874B1F004F7945 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		311670BD24874B1F004F7945 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				311670BC24874B1F004F7945 /* appIOT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		311670BE24874B1F004F7945 /* appIOT */ = {
+			isa = PBXGroup;
+			children = (
+				31937F1F2489FF7C00875158 /* font */,
+				31937F1D2489F7AE00875158 /* Canvas.swift */,
+				313CA7F6248FB1070010BE10 /* CustomButton.swift */,
+				313CA7F4248FAE0D0010BE10 /* BigSwitch.swift */,
+				311670BF24874B1F004F7945 /* AppDelegate.swift */,
+				319D8E432488D15B004BA38D /* SecondViewController.swift */,
+				311670D324876D32004F7945 /* RoomCollectionViewCell.swift */,
+				311670C124874B1F004F7945 /* SceneDelegate.swift */,
+				311670C324874B1F004F7945 /* ViewController.swift */,
+				311670C524874B1F004F7945 /* Main.storyboard */,
+				311670C824874B20004F7945 /* Assets.xcassets */,
+				311670CA24874B20004F7945 /* LaunchScreen.storyboard */,
+				311670CD24874B20004F7945 /* Info.plist */,
+				311670D7248773A3004F7945 /* RoomTableViewCell.swift */,
+				311670D8248773A3004F7945 /* RoomTableViewCell.xib */,
+				319D8E412488B433004BA38D /* Room.swift */,
+				31937F30248A0CF300875158 /* RoomM.swift */,
+			);
+			path = appIOT;
+			sourceTree = "<group>";
+		};
+		31937F1F2489FF7C00875158 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				31937F202489FF7C00875158 /* Proxima Nova Alt Thin.otf */,
+				31937F212489FF7C00875158 /* Proxima Nova Alt Bold.otf */,
+				31937F222489FF7C00875158 /* Proxima Nova Extrabold.otf */,
+				31937F232489FF7C00875158 /* Proxima Nova Alt Light.otf */,
+				31937F242489FF7C00875158 /* Proxima Nova Black.otf */,
+				31937F252489FF7C00875158 /* Proxima Nova Bold.otf */,
+				31937F262489FF7C00875158 /* ProximaNova-Regular.otf */,
+				31937F272489FF7C00875158 /* Proxima Nova Thin.otf */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		311670BB24874B1F004F7945 /* appIOT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 311670D024874B20004F7945 /* Build configuration list for PBXNativeTarget "appIOT" */;
+			buildPhases = (
+				311670B824874B1F004F7945 /* Sources */,
+				311670B924874B1F004F7945 /* Frameworks */,
+				311670BA24874B1F004F7945 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = appIOT;
+			productName = appIOT;
+			productReference = 311670BC24874B1F004F7945 /* appIOT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		311670B424874B1F004F7945 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Ngoduc;
+				TargetAttributes = {
+					311670BB24874B1F004F7945 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 311670B724874B1F004F7945 /* Build configuration list for PBXProject "appIOT" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 311670B324874B1F004F7945;
+			productRefGroup = 311670BD24874B1F004F7945 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				311670BB24874B1F004F7945 /* appIOT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		311670BA24874B1F004F7945 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311670CC24874B20004F7945 /* LaunchScreen.storyboard in Resources */,
+				311670C924874B20004F7945 /* Assets.xcassets in Resources */,
+				31937F292489FF7C00875158 /* Proxima Nova Alt Bold.otf in Resources */,
+				311670DA248773A3004F7945 /* RoomTableViewCell.xib in Resources */,
+				31937F2A2489FF7C00875158 /* Proxima Nova Extrabold.otf in Resources */,
+				31937F2C2489FF7C00875158 /* Proxima Nova Black.otf in Resources */,
+				31937F2E2489FF7C00875158 /* ProximaNova-Regular.otf in Resources */,
+				31937F2F2489FF7C00875158 /* Proxima Nova Thin.otf in Resources */,
+				311670C724874B1F004F7945 /* Main.storyboard in Resources */,
+				31937F2B2489FF7C00875158 /* Proxima Nova Alt Light.otf in Resources */,
+				31937F282489FF7C00875158 /* Proxima Nova Alt Thin.otf in Resources */,
+				31937F2D2489FF7C00875158 /* Proxima Nova Bold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		311670B824874B1F004F7945 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31937F31248A0CF300875158 /* RoomM.swift in Sources */,
+				311670C424874B1F004F7945 /* ViewController.swift in Sources */,
+				311670D9248773A3004F7945 /* RoomTableViewCell.swift in Sources */,
+				319D8E422488B433004BA38D /* Room.swift in Sources */,
+				31937F1E2489F7AE00875158 /* Canvas.swift in Sources */,
+				311670C024874B1F004F7945 /* AppDelegate.swift in Sources */,
+				319D8E442488D15B004BA38D /* SecondViewController.swift in Sources */,
+				313CA7F7248FB1070010BE10 /* CustomButton.swift in Sources */,
+				313CA7F5248FAE0D0010BE10 /* BigSwitch.swift in Sources */,
+				311670C224874B1F004F7945 /* SceneDelegate.swift in Sources */,
+				311670D424876D32004F7945 /* RoomCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		311670C524874B1F004F7945 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				311670C624874B1F004F7945 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		311670CA24874B20004F7945 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				311670CB24874B20004F7945 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		311670CE24874B20004F7945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		311670CF24874B20004F7945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		311670D124874B20004F7945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BQNRTN9YS2;
+				INFOPLIST_FILE = appIOT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.techmaster.appIOT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		311670D224874B20004F7945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BQNRTN9YS2;
+				INFOPLIST_FILE = appIOT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.techmaster.appIOT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		311670B724874B1F004F7945 /* Build configuration list for PBXProject "appIOT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				311670CE24874B20004F7945 /* Debug */,
+				311670CF24874B20004F7945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		311670D024874B20004F7945 /* Build configuration list for PBXNativeTarget "appIOT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				311670D124874B20004F7945 /* Debug */,
+				311670D224874B20004F7945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 311670B424874B1F004F7945 /* Project object */;
+}
